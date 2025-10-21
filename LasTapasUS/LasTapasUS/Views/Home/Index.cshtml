@@ -30,6 +30,8 @@
             border-radius: 12px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
             padding: 1.5rem;
+            position: sticky;
+            top: 20px;
         }
 
         .btn-checkout {
@@ -62,14 +64,12 @@
     <div class="container my-4">
         <!-- Category Nav -->
         <div class="category-bar mb-3">
-            <a href="#">All Categories</a>
-            <a href="#">Appetizer</a>
-            <a href="#">Specials</a>
-            <a href="#">Salads</a>
-            <a href="#">Seafoods</a>
-            <a href="#">Traditional</a>
-            <a href="#">Desserts</a>
-            <a href="#">Drinks</a>
+            <a href="@Url.Action("Index", "Home", new { category = "All Categories" })">All Categories</a>
+            <a href="@Url.Action("Index", "Home", new { category = "Cold Tapas" })">Cold Tapas</a>
+            <a href="@Url.Action("Index", "Home", new { category = "Hot Tapas" })">Hot Tapas</a>
+            <a href="@Url.Action("Index", "Home", new { category = "Land & Sea" })">Land & Sea</a>
+            <a href="@Url.Action("Index", "Home", new { category = "Dishes to Share" })">Dishes to Share</a>
+            <a href="@Url.Action("Index", "Home", new { category = "Desserts" })">Desserts</a>
         </div>
 
         <!-- Content -->
@@ -92,17 +92,13 @@
                             <p class="text-muted mb-2">@item.Description</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <span class="fw-bold">€@item.Price</span>
-                                <form asp-controller="Orders" asp-action="Create" method="post" class="d-inline">
-                                    <input type="hidden" name="table" value="Demo Table" />
-                                    <input type="hidden" name="dish" value="@item.Name" />
-                                    <button type="submit" class="btn btn-outline-secondary btn-sm">+</button>
-                                </form>
+                                <button class="btn btn-outline-secondary btn-sm" onclick="addToBasket('@item.Name', @item.Price)">+</button>
                             </div>
                         </div>
                     </div>
                 }
             </div>
-        </div>}
+        </div>
 
             <!-- Basket -->
             <div class="col-lg-4">
@@ -126,9 +122,73 @@
                         <span>€0,00</span>
                     </div>
                     <button class="btn btn-checkout" disabled>Checkout · €0,00</button>
-                </div>
             </div>
-        </div>
+        </div> 
+        <script>
+            // Basket array
+            let basket = [];
+
+            // Add item to basket
+            function addToBasket(name, price) {
+                basket.push({ name: name, price: price });
+                renderBasket();
+            }
+
+            // Render basket HTML
+            function renderBasket() {
+                const basketDiv = document.querySelector('.basket');
+                if (!basketDiv) return;
+
+                let html = '<h5>Basket</h5>';
+
+                if (basket.length === 0) {
+                    html += '<p class="text-muted">Your basket is empty.</p>';
+                } else {
+                    html += '<ul class="list-unstyled">';
+                    basket.forEach((item, index) => {
+                        html += `<li>${item.name} - €${item.price.toFixed(2)} <button onclick="removeFromBasket(${index})" class="btn btn-sm btn-outline-danger">x</button></li>`;
+                    });
+                    html += '</ul>';
+                }
+
+                // Total
+                let total = basket.reduce((sum, item) => sum + item.price, 0);
+                html += `<hr><div class="d-flex justify-content-between fw-bold mb-3"><span>Total:</span><span>€${total.toFixed(2)}</span></div>`;
+
+                // Checkout button
+                html += `<button class="btn btn-checkout" ${basket.length === 0 ? 'disabled' : ''} onclick="submitBasket()">Checkout · €${total.toFixed(2)}</button>`;
+
+                basketDiv.innerHTML = html;
+            }
+
+            // Remove item from basket
+            function removeFromBasket(index) {
+                basket.splice(index, 1);
+                renderBasket();
+            }
+
+            // Submit basket to server
+            function submitBasket() {
+                if (basket.length === 0) return;
+
+                // Send via POST
+                fetch('/Orders/SubmitBasket', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ items: basket, table: 'Demo Table' })
+                })
+                .then(response => {
+                    if (response.ok) {
+                        // Redirect to waiter page
+                        window.location.href = '/Orders/Waiter';
+                    }
+                });
+            }
+
+            renderBasket(); // initialize basket
+        </script>
+
+        </div> 
     
 </body>
 </html>

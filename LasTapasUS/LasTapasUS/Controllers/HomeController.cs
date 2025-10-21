@@ -14,9 +14,14 @@ namespace LasTapasUS.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string category)
         {
             var menu = Menu.MenuList; // get static menu list
+
+            if (!string.IsNullOrEmpty(category) && category != "All Categories")
+            {
+                menu = menu.Where(m => m.Category == category).ToList();
+            }
             return View("~/Views/Home/Index.cshtml", menu);        // send it to /Views/Home/Index.cshtml
         }
 

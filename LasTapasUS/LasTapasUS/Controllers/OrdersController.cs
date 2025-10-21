@@ -40,5 +40,38 @@ namespace LasTapasUS.Controllers
             if (order != null) order.Status = "Served";
             return RedirectToAction("Waiter");
         }
+
+        [HttpPost]
+        public IActionResult SubmitBasket([FromBody] BasketDto dto)
+        {
+            int nextId = Orders.Order.Count + 1;
+
+            foreach (var item in dto.Items)
+            {
+                Orders.Order.Add(new Order
+                {
+                    Id = nextId++,
+                    Table = dto.Table,
+                    Dish = item.Name,
+                    Status = "Pending"
+                });
+            }
+
+            return Ok();
+        }
+
+        // DTO to receive basket
+        public class BasketDto
+        {
+            public string Table { get; set; }
+            public List<BasketItemDto> Items { get; set; }
+        }
+
+        public class BasketItemDto
+        {
+            public string Name { get; set; }
+            public decimal Price { get; set; }
+        }
+
     }
 }
