@@ -1,0 +1,45 @@
+﻿@model IEnumerable<LasTapasUS.Models.Order>
+
+<h2>Waiter View</h2>
+
+<form asp-action="Create" method="post">
+    <input name="table" placeholder="Table #" required />
+
+    <select name="dish">
+        @foreach (var item in LasTapasUS.Data.Menu.MenuList)
+        {
+            <option value="@item.Name">@item.Name (€@item.Price)</option>
+        }
+    </select>
+
+    <button type="submit">Add Order</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr><th>ID</th><th>Table</th><th>Dish</th><th>Status</th><th>Actions</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var o in Model)
+        {
+            <tr>
+                <td>@o.Id</td>
+                <td>@o.Table</td>
+                <td>@o.Dish</td>
+                <td>@o.Status</td>
+                <td>
+                    @if (o.Status == "Prepared")
+                    {
+                        <form asp-action="MarkServed" method="post">
+                            <input type="hidden" name="id" value="@o.Id" />
+                            <button type="submit">Mark Served</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Orders/Kitchen">Go to Kitchen View</a>
+

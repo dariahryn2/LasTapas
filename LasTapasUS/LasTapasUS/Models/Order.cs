@@ -3,9 +3,8 @@
     public class Order
     {
         public int Id { get; set; }
-        public int TableNumber { get; set; }
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
-        public bool IsPaid { get; set; } = false;
-        public List<OrderItem> Items { get; set; } = new();
+        public string Table { get; set; } = "";
+        public string Dish { get; set; } = "";
+        public string Status { get; set; } = "Pending"; // Pending, Prepared, Served
     }
 }

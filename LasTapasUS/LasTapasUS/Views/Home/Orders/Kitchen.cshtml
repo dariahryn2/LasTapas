@@ -1,0 +1,29 @@
+﻿@model IEnumerable<LasTapasUS.Models.Order>
+
+<h2>Kitchen View</h2>
+
+<table class="table">
+    <thead>
+        <tr><th>ID</th><th>Table</th><th>Dish</th><th>Status</th><th>Action</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var o in Model)
+        {
+            <tr>
+                <td>@o.Id</td>
+                <td>@o.Table</td>
+                <td>@o.Dish</td>
+                <td>@o.Status</td>
+                <td>
+                    <form asp-action="MarkPrepared" method="post">
+                        <input type="hidden" name="id" value="@o.Id" />
+                        <button type="submit">Mark Prepared</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Orders/Waiter">Go to Waiter View</a>
+

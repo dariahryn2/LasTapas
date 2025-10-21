@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using LasTapasUS.Models;
 using Microsoft.AspNetCore.Mvc;
+using LasTapasUS.Data;
 
 namespace LasTapasUS.Controllers
 {
@@ -15,7 +16,8 @@ namespace LasTapasUS.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var menu = Menu.MenuList; // get static menu list
+            return View("~/Views/Home/Index.cshtml", menu);        // send it to /Views/Home/Index.cshtml
         }
 
         public IActionResult Privacy()

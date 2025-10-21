@@ -1,5 +1,6 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<LasTapasUS.Models.MenuItem>
+@{
+    ViewData["Title"] = "Menu";
 }
 
 <!DOCTYPE html>
@@ -72,44 +73,36 @@
         </div>
 
         <!-- Content -->
-        <div class="row">
-            <!-- Menu List -->
-            <div class="col-lg-8">
-                <div class="row g-3">
-                    <div class="col-md-6">
-                        <div class="card menu-card p-3">
-                            <h6 class="fw-bold">Aceitunas mixtas</h6>
-                            <p class="text-muted mb-2">Marinated olives with garlic and herbs</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="fw-bold">€3,50</span>
-                                <button class="btn btn-outline-secondary btn-sm">+</button>
-                            </div>
-                        </div>
-                    </div>
+        <div>
+            <a href="/Orders/Kitchen" class="btn btn-outline-secondary btn-sm">👨‍🍳 Kitchen</a>
+            <a href="/Orders/Waiter" class="btn btn-outline-secondary btn-sm">🧾 Waiter</a>
+        </div>
+    </div>
 
+    <!-- Main Layout: Menu + Basket -->
+    <div class="row">
+        <!-- Menu List -->
+        <div class="col-lg-8">
+            <div class="row g-3">
+                @foreach (var item in Model)
+                {
                     <div class="col-md-6">
                         <div class="card menu-card p-3">
-                            <h6 class="fw-bold">Jamón Ibérico</h6>
-                            <p class="text-muted mb-2">Iberian ham with crispy bread</p>
+                            <h6 class="fw-bold">@item.Name</h6>
+                            <p class="text-muted mb-2">@item.Description</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <span class="fw-bold">€8,50</span>
-                                <button class="btn btn-outline-secondary btn-sm">+</button>
+                                <span class="fw-bold">€@item.Price</span>
+                                <form asp-controller="Orders" asp-action="Create" method="post" class="d-inline">
+                                    <input type="hidden" name="table" value="Demo Table" />
+                                    <input type="hidden" name="dish" value="@item.Name" />
+                                    <button type="submit" class="btn btn-outline-secondary btn-sm">+</button>
+                                </form>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-md-6">
-                        <div class="card menu-card p-3">
-                            <h6 class="fw-bold">Queso Manchego</h6>
-                            <p class="text-muted mb-2">Sheep cheese with fig compote</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="fw-bold">€6,50</span>
-                                <button class="btn btn-outline-secondary btn-sm">+</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                }
             </div>
+        </div>}
 
             <!-- Basket -->
             <div class="col-lg-4">
@@ -136,7 +129,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 </body>
 </html>
 
