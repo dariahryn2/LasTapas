@@ -61,8 +61,15 @@
     </style>
 </head>
 <body>
+    <!-- logo -->
+    <div class="text-center my-3">
+        <img src="~/images/logolastapas.png" alt="Las Tapas Logo" style="height: 260px; width: auto;" />
+    </div>
+
+
     <div class="container my-4">
-        <!-- Category Nav -->
+
+        <!-- Category nav -->
         <div class="category-bar mb-3">
             <a href="@Url.Action("Index", "Home", new { category = "All Categories" })">All Categories</a>
             <a href="@Url.Action("Index", "Home", new { category = "Cold Tapas" })">Cold Tapas</a>
