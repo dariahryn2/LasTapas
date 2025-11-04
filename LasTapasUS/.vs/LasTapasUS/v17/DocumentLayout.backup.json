@@ -1,54 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\",
+  "WorkspaceRootPath": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\dasha\\documents\\github\\lastapas\\lastapasus\\lastapasus\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\jarno\\source\\repos\\lastapas\\lastapasus\\lastapasus\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\dasha\\documents\\github\\lastapas\\lastapasus\\lastapasus\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\dasha\\documents\\github\\lastapas\\lastapasus\\lastapasus\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\dasha\\documents\\github\\lastapas\\lastapasus\\lastapasus\\data\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\data\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\dasha\\documents\\github\\lastapas\\lastapasus\\lastapasus\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\dasha\\documents\\github\\lastapas\\lastapasus\\lastapasus\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\jarno\\source\\repos\\lastapas\\lastapasus\\lastapasus\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\dasha\\documents\\github\\lastapas\\lastapasus\\lastapasus\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\jarno\\source\\repos\\lastapas\\lastapasus\\lastapasus\\data\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\data\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\jarno\\source\\repos\\lastapas\\lastapasus\\lastapasus\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\jarno\\source\\repos\\lastapas\\lastapasus\\lastapasus\\data\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\data\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\jarno\\source\\repos\\lastapas\\lastapasus\\lastapasus\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\dasha\\documents\\github\\lastapas\\lastapasus\\lastapasus\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\jarno\\source\\repos\\lastapas\\lastapasus\\lastapasus\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\dasha\\documents\\github\\lastapas\\lastapasus\\lastapasus\\views\\home\\orders\\waiter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\jarno\\source\\repos\\lastapas\\lastapasus\\lastapasus\\lastapasus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\lastapasus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\jarno\\source\\repos\\lastapas\\lastapasus\\lastapasus\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\jarno\\source\\repos\\lastapas\\lastapasus\\lastapasus\\views\\home\\orders\\waiter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\views\\home\\orders\\waiter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\dasha\\documents\\github\\lastapas\\lastapasus\\lastapasus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\dasha\\documents\\github\\lastapas\\lastapasus\\lastapasus\\views\\home\\orders\\kitchen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\jarno\\source\\repos\\lastapas\\lastapasus\\lastapasus\\views\\home\\orders\\kitchen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\views\\home\\orders\\kitchen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\dasha\\documents\\github\\lastapas\\lastapasus\\lastapasus\\data\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\data\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\jarno\\source\\repos\\lastapas\\lastapasus\\lastapasus\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|c:\\users\\jarno\\source\\repos\\lastapas\\lastapasus\\lastapasus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1A5242-7925-41C3-BCE9-8A94F2B444D5}|LasTapasUS\\LasTapasUS.csproj|solutionrelative:lastapasus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,15 +62,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "LasTapasUS.csproj",
+              "DocumentMoniker": "C:\\Users\\jarno\\Source\\Repos\\LasTapas\\LasTapasUS\\LasTapasUS\\LasTapasUS.csproj",
+              "RelativeDocumentMoniker": "LasTapasUS\\LasTapasUS.csproj",
+              "ToolTip": "C:\\Users\\jarno\\Source\\Repos\\LasTapas\\LasTapasUS\\LasTapasUS\\LasTapasUS.csproj",
+              "RelativeToolTip": "LasTapasUS\\LasTapasUS.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-30T13:30:31.828Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LasTapasUS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "LasTapasUS\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAAMEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T21:21:26.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "LasTapasUS\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "LasTapasUS\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:27:06.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Data\\Menu.cs",
+              "RelativeDocumentMoniker": "LasTapasUS\\Data\\Menu.cs",
+              "ToolTip": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Data\\Menu.cs",
+              "RelativeToolTip": "LasTapasUS\\Data\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAADZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:20:08.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Data\\Orders.cs",
+              "RelativeDocumentMoniker": "LasTapasUS\\Data\\Orders.cs",
+              "ToolTip": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Data\\Orders.cs",
+              "RelativeToolTip": "LasTapasUS\\Data\\Orders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:19:58.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "LasTapasUS\\Models\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Models\\MenuItem.cs",
+              "RelativeToolTip": "LasTapasUS\\Models\\MenuItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:57:45.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Controllers\\MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Controllers\\MenuController.cs",
               "RelativeDocumentMoniker": "LasTapasUS\\Controllers\\MenuController.cs",
-              "ToolTip": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Controllers\\MenuController.cs",
               "RelativeToolTip": "LasTapasUS\\Controllers\\MenuController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,84 +159,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "LasTapasUS\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "LasTapasUS\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAcwEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:27:06.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Data\\Menu.cs",
-              "RelativeDocumentMoniker": "LasTapasUS\\Data\\Menu.cs",
-              "ToolTip": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Data\\Menu.cs",
-              "RelativeToolTip": "LasTapasUS\\Data\\Menu.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:20:08.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Orders.cs",
-              "DocumentMoniker": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Data\\Orders.cs",
-              "RelativeDocumentMoniker": "LasTapasUS\\Data\\Orders.cs",
-              "ToolTip": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Data\\Orders.cs",
-              "RelativeToolTip": "LasTapasUS\\Data\\Orders.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:19:58.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "LasTapasUS\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "LasTapasUS\\Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEEAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-19T21:21:26.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MenuItem.cs",
-              "DocumentMoniker": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Models\\MenuItem.cs",
-              "RelativeDocumentMoniker": "LasTapasUS\\Models\\MenuItem.cs",
-              "ToolTip": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Models\\MenuItem.cs",
-              "RelativeToolTip": "LasTapasUS\\Models\\MenuItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T20:57:45.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Models\\Order.cs",
+              "DocumentMoniker": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Models\\Order.cs",
               "RelativeDocumentMoniker": "LasTapasUS\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Models\\Order.cs",
               "RelativeToolTip": "LasTapasUS\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T20:58:07.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Models\\OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "LasTapasUS\\Models\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Models\\OrderItem.cs",
               "RelativeToolTip": "LasTapasUS\\Models\\OrderItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -159,23 +183,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "LasTapasUS\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Controllers\\HomeController.cs",
               "RelativeToolTip": "LasTapasUS\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T17:49:35.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Waiter.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Orders\\Waiter.cshtml",
+              "DocumentMoniker": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Orders\\Waiter.cshtml",
               "RelativeDocumentMoniker": "LasTapasUS\\Views\\Home\\Orders\\Waiter.cshtml",
-              "ToolTip": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Orders\\Waiter.cshtml",
+              "ToolTip": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Orders\\Waiter.cshtml",
               "RelativeToolTip": "LasTapasUS\\Views\\Home\\Orders\\Waiter.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -185,9 +209,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Kitchen.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Orders\\Kitchen.cshtml",
+              "DocumentMoniker": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Orders\\Kitchen.cshtml",
               "RelativeDocumentMoniker": "LasTapasUS\\Views\\Home\\Orders\\Kitchen.cshtml",
-              "ToolTip": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Orders\\Kitchen.cshtml",
+              "ToolTip": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Orders\\Kitchen.cshtml",
               "RelativeToolTip": "LasTapasUS\\Views\\Home\\Orders\\Kitchen.cshtml",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -195,11 +219,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Program.cs",
               "RelativeDocumentMoniker": "LasTapasUS\\Program.cs",
-              "ToolTip": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Program.cs",
+              "ToolTip": "C:\\Users\\jarno\\source\\repos\\LasTapas\\LasTapasUS\\LasTapasUS\\Program.cs",
               "RelativeToolTip": "LasTapasUS\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

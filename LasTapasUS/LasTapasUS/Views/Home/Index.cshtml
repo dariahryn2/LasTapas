@@ -95,13 +95,32 @@
                 {
                     <div class="col-md-6">
                         <div class="card menu-card p-3">
+                            <!-- Gerecht afbeelding -->
+                            <img src="@item.ImagePath" alt="@item.Name" class="img-fluid rounded mb-2" style="height:160px; object-fit:cover; width:100%;" />
+
                             <h6 class="fw-bold">@item.Name</h6>
                             <p class="text-muted mb-2">@item.Description</p>
+
+                            <!-- Allergie icoontjes -->
+                            <div class="d-flex flex-wrap mb-2">
+                                @foreach (var allergen in item.Allergens)
+                                {
+                                    <img src="/icons/@(allergen.ToString().ToLower()).png"
+                                         alt="@allergen"
+                                         title="@allergen"
+                                         style="width:22px; height:22px; margin-right:5px;" />
+                                }
+                            </div>
+
                             <div class="d-flex justify-content-between align-items-center">
                                 <span class="fw-bold">€@item.Price</span>
-                                <button class="btn btn-outline-secondary btn-sm" onclick="addToBasket('@item.Name', @item.Price)">+</button>
+                                <button class="btn btn-outline-secondary btn-sm"
+                                        onclick="addToBasket('@item.Name', '@item.Price.ToString(System.Globalization.CultureInfo.InvariantCulture)')">
+                                    +
+                                </button>
                             </div>
                         </div>
+
                     </div>
                 }
             </div>
@@ -135,11 +154,20 @@
             // Basket array
             let basket = [];
 
-            // Add item to basket
-            function addToBasket(name, price) {
-                basket.push({ name: name, price: price });
+                //add to basket
+                    function addToBasket(name, price) {
+                // Zoek of het gerecht al in de basket zit
+                let existing = basket.find(item => item.name === name);
+
+                if (existing) {
+                    existing.quantity += 1; // verhoog aantal
+                } else {
+                    basket.push({ name: name, price: parseFloat(price), quantity: 1 });
+                }
+
                 renderBasket();
             }
+
 
             // Render basket HTML
             function renderBasket() {
@@ -151,16 +179,29 @@
                 if (basket.length === 0) {
                     html += '<p class="text-muted">Your basket is empty.</p>';
                 } else {
-                    html += '<ul class="list-unstyled">';
-                    basket.forEach((item, index) => {
-                        html += `<li>${item.name} - €${item.price.toFixed(2)} <button onclick="removeFromBasket(${index})" class="btn btn-sm btn-outline-danger">x</button></li>`;
-                    });
+               basket.forEach((item, index) => {
+                const itemTotal = (item.price * item.quantity).toFixed(2);
+                const itemTotalFormatted = itemTotal.replace('.', ','); // voor euro-notatie
+            html += `
+               <li class="d-flex justify-content-between align-items-center mb-1">
+                   <div>
+                       ${item.name} <span class="text-muted">x${item.quantity}</span>
+                   </div>
+                   <div>
+                       €${itemTotalFormatted}
+                       <button onclick="removeFromBasket(${index})" class="btn btn-sm btn-outline-danger ms-2">x</button>
+                   </div>
+               </li>`;
+            });
+
+
                     html += '</ul>';
                 }
 
                 // Total
-                let total = basket.reduce((sum, item) => sum + item.price, 0);
-                html += `<hr><div class="d-flex justify-content-between fw-bold mb-3"><span>Total:</span><span>€${total.toFixed(2)}</span></div>`;
+                            let total = basket.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            let totalFormatted = total.toFixed(2).replace('.', ',');
+            html += `<hr><div class="d-flex justify-content-between fw-bold mb-3"><span>Total:</span><span>€${totalFormatted}</span></div>`;
 
                 // Checkout button
                 html += `<button class="btn btn-checkout" ${basket.length === 0 ? 'disabled' : ''} onclick="submitBasket()">Checkout · €${total.toFixed(2)}</button>`;
@@ -169,10 +210,15 @@
             }
 
             // Remove item from basket
-            function removeFromBasket(index) {
-                basket.splice(index, 1);
+                       function removeFromBasket(index) {
+                if (basket[index].quantity > 1) {
+                    basket[index].quantity -= 1;
+                } else {
+                    basket.splice(index, 1);
+                }
                 renderBasket();
             }
+
 
             // Submit basket to server
             function submitBasket() {
