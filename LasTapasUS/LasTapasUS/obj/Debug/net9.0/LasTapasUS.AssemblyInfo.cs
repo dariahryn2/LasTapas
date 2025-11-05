@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LasTapasUS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a65ce224c54423781f7f26b872e7e2b7e72d3696")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26a8796a6cf469516faf0459818056632c9e3344")]
 [assembly: System.Reflection.AssemblyProductAttribute("LasTapasUS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LasTapasUS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -31,11 +31,25 @@ namespace LasTapasUS.Controllers
         }
         public IActionResult Waiter()
         {
-            var orders = _context.Orders.OrderByDescending(o => o.Id).ToList();
-            return View("~/Views/Home/Orders/Waiter.cshtml", orders);
+            var activeOrders = _context.Orders
+                .Where(o => o.Status != "Served")
+                .OrderByDescending(o => o.Id)
+                .ToList();
 
+            var servedOrders = _context.Orders
+                .Where(o => o.Status == "Served")
+                .OrderByDescending(o => o.Id)
+                .ToList();
 
+            var viewModel = new WaiterViewModel
+            {
+                ActiveOrders = activeOrders,
+                ServedOrders = servedOrders
+            };
+
+            return View("~/Views/Home/Orders/Waiter.cshtml", viewModel);
         }
+
 
         public IActionResult Kitchen()
         {
