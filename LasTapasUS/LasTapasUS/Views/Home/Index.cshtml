@@ -81,8 +81,11 @@
 
         <!-- Content -->
         <div>
-            <a href="/Orders/Kitchen" class="btn btn-outline-secondary btn-sm">👨‍🍳 Kitchen</a>
-            <a href="/Orders/Waiter" class="btn btn-outline-secondary btn-sm">🧾 Waiter</a>
+            <a href="/Orders/Kitchen" class="btn btn-outline-secondary btn-sm"> Kitchen</a>
+            <a href="/Orders/Waiter" class="btn btn-outline-secondary btn-sm">Waiter</a>
+            <a class="btn btn-outline-danger mt-3" href="/Orders/MyOrders?table=Demo Table">
+                View My Orders
+            </a>
         </div>
     </div>
 
@@ -232,8 +235,8 @@
                 })
                 .then(response => {
                     if (response.ok) {
-                        // Redirect to waiter page
-                        window.location.href = '/Orders/Waiter';
+                        // Redirect to order history page
+                       window.location.href = '/Orders/MyOrders?table=' + encodeURIComponent('Demo Table');
                     }
                 });
             }
