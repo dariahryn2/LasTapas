@@ -470,3 +470,5 @@ C:\Users\jarno\Source\Repos\LasTapas\LasTapasUS\LasTapasUS\obj\Debug\net9.0\refi
 C:\Users\jarno\Source\Repos\LasTapas\LasTapasUS\LasTapasUS\obj\Debug\net9.0\LasTapasUS.pdb
 C:\Users\jarno\Source\Repos\LasTapas\LasTapasUS\LasTapasUS\obj\Debug\net9.0\LasTapasUS.genruntimeconfig.cache
 C:\Users\jarno\Source\Repos\LasTapas\LasTapasUS\LasTapasUS\obj\Debug\net9.0\ref\LasTapasUS.dll
+C:\Users\Dasha\Documents\GitHub\LasTapas\LasTapasUS\LasTapasUS\bin\Debug\net9.0\MySqlConnector.dll
+C:\Users\Dasha\Documents\GitHub\LasTapas\LasTapasUS\LasTapasUS\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll

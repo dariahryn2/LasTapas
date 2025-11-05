@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jarno\\Source\\Repos\\LasTapas\\LasTapasUS\\LasTapasUS\\LasTapasUS.csproj": {}
+    "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\LasTapasUS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jarno\\Source\\Repos\\LasTapas\\LasTapasUS\\LasTapasUS\\LasTapasUS.csproj": {
+    "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\LasTapasUS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jarno\\Source\\Repos\\LasTapas\\LasTapasUS\\LasTapasUS\\LasTapasUS.csproj",
+        "projectUniqueName": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\LasTapasUS.csproj",
         "projectName": "LasTapasUS",
-        "projectPath": "C:\\Users\\jarno\\Source\\Repos\\LasTapas\\LasTapasUS\\LasTapasUS\\LasTapasUS.csproj",
-        "packagesPath": "C:\\Users\\jarno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jarno\\Source\\Repos\\LasTapas\\LasTapasUS\\LasTapasUS\\obj\\",
+        "projectPath": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\LasTapasUS.csproj",
+        "packagesPath": "C:\\Users\\Dasha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jarno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,6 +64,10 @@
               "target": "Package",
               "version": "[9.0.10, )"
             },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[9.0.6, )"
@@ -89,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
