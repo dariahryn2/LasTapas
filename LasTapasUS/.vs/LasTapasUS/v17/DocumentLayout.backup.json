@@ -111,8 +111,7 @@
               "RelativeToolTip": "LasTapasUS\\Controllers\\MenuController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:27:16.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T17:27:16.225Z"
             },
             {
               "$type": "Document",
@@ -124,8 +123,7 @@
               "RelativeToolTip": "LasTapasUS\\Controllers\\OrdersController.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAIwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:27:06.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T17:27:06.422Z"
             },
             {
               "$type": "Document",
@@ -137,8 +135,7 @@
               "RelativeToolTip": "LasTapasUS\\Models\\WaiterViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T10:46:14.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T10:46:14.64Z"
             },
             {
               "$type": "Document",
@@ -150,8 +147,7 @@
               "RelativeToolTip": "LasTapasUS\\Views\\Home\\Orders\\Kitchen.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-21T17:37:31.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T17:37:31.752Z"
             },
             {
               "$type": "Document",
@@ -163,8 +159,7 @@
               "RelativeToolTip": "LasTapasUS\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:37:53.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T17:37:53.753Z"
             },
             {
               "$type": "Document",
@@ -176,8 +171,7 @@
               "RelativeToolTip": "LasTapasUS\\Views\\Home\\Orders\\Waiter.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-21T17:36:09.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T17:36:09.848Z"
             },
             {
               "$type": "Document",
@@ -185,9 +179,9 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "LasTapasUS\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "LasTapasUS\\Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJkAAAAOAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dasha\\Documents\\GitHub\\LasTapas\\LasTapasUS\\LasTapasUS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LasTapasUS\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-19T21:21:26.517Z",
               "EditorCaption": ""
@@ -202,8 +196,7 @@
               "RelativeToolTip": "LasTapasUS\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:49:35.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T17:49:35.011Z"
             },
             {
               "$type": "Document",
@@ -215,8 +208,7 @@
               "RelativeToolTip": "LasTapasUS\\Views\\Home\\Orders\\MyOrders.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-05T00:24:54.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T00:24:54.24Z"
             },
             {
               "$type": "Document",
@@ -228,8 +220,7 @@
               "RelativeToolTip": "LasTapasUS\\Data\\Orders.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:19:58.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T17:19:58.907Z"
             },
             {
               "$type": "Document",
@@ -241,8 +232,7 @@
               "RelativeToolTip": "LasTapasUS\\Data\\Menu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAADZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:20:08.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T17:20:08.797Z"
             },
             {
               "$type": "Document",
@@ -254,8 +244,7 @@
               "RelativeToolTip": "LasTapasUS\\Models\\OrderItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T20:58:18.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T20:58:18.22Z"
             },
             {
               "$type": "Document",
@@ -267,8 +256,7 @@
               "RelativeToolTip": "LasTapasUS\\Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T20:58:07.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T20:58:07.076Z"
             },
             {
               "$type": "Document",
